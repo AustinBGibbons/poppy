@@ -1,0 +1,21 @@
+*.class
+*.log
+.settings
+.project
+.classpath
+*~
+build
+test_output
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.idea
+*.iml
